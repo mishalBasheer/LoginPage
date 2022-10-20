@@ -61,15 +61,10 @@ router.get('/', (req, res) => {
   } else {
     res.redirect('/');
   }
-})
-
-
-
+});
 
 
 /* GET login page. */
-
-
 
 router.get('/logout', function (req, res) {
 

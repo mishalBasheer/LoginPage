@@ -18,7 +18,6 @@ router.get('/', function (req, res, next) {
 });
 
 router.post('/', function (req, res, next) {
-
   if (req.body.email == email && req.body.password == password) {
     req.session.login = true;
     res.redirect('/home');
